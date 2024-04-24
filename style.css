@@ -1,0 +1,61 @@
+body {
+    background-image: url(dark-sky.jpeg);
+    /* background-size: cover; */
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.search-box {
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.3);
+    max-width: fit-content;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+#search-box-input {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+#search-button {
+    background-color: transparent;
+    border: none;
+    transform: scale(2);
+}
+
+.current-weather-display {
+    font-size: 1.5rem;
+    max-width: fit-content;
+    position: absolute;
+    top: 20%;
+}
+
+.current-weather-conditions {
+    font-size: 3rem;
+}
+
+.selected-location {
+font-size: 5rem;
+}
+
+.current-weather-details {
+    display: flex;
+}
+
+.current-temp {
+    font-size: 8rem;
+    padding-right: 25px;
+}
+
+.current-weather-specifics {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 25px;
+    max-height: fit-content;
+    border-left: 1px solid gray;
+}
