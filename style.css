@@ -21,6 +21,10 @@ body {
     color: white;
 }
 
+#search-box-input:focus {
+    outline: none;
+}
+
 #search-button {
     background-color: transparent;
     border: none;
